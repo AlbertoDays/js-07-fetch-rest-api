@@ -1,0 +1,125 @@
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    width: 326px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+    header {
+        width: 100%;
+        display: block;
+    }
+}
+
+.card-body-img{
+        width: 200px;
+        height: 200px;
+        border: 5px solid white;
+        border-radius: 50%;
+        margin-top: calc(-100px - 5px);
+        background-color: white;
+        object-fit: cover;
+    }
+
+    /*body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid rgba(153, 153, 153, 0.383);
+
+
+    title {
+            margin-top: 2rem;
+            font-size: 1.8rem;
+
+            span {
+                color: var(--dark-gray);
+                font-weight: 400;
+                margin-left: 0.7rem;
+            }
+        }
+
+        text {
+            color: var(--dark-gray);
+            font-size: 1.6rem;
+            margin-top: 0;
+            margin-bottom: 2rem;
+        }
+
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+
+        social {
+            text-align: center;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+            p {
+                letter-spacing: 1px;
+            }
+
+        }
+
+    }
+
+}*/
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: #14141c;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1a1b26;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.row {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    width: 100%;
+}
+
+.btn {
+    background-color: #fa6400;
+    border: 0px solid transparent;
+    border-radius: .25rem;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    min-width: 110px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+

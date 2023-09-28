@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fetch y peticiones</title>
+        <script async defer src='./js/main.js'></script>
+        <script async defer src='./js/fetch.js'></script>
+        <link rel='stylesheet' href='./css/styles.css'>
+    </head>
+    <body>
+        <button id='btn-counter'>Counter ++</button>
+        <p id='counter'></p>
+
+        <div class='container'>
+            <div class='card--container'>
+                <main class="flex">
+                    <article class="card">
+                      <img src="" alt="" class="card-header" />
+                      <div class="card-body">
+                        <img src="" alt="" class="card-body-img" />
+                        <h1 class="card-body-title">
+                          Pokemon
+                          <span>26</span>
+                        </h1>
+                        <p class="card-body-text">Body</p>
+                      </div>
+                      <div class="card-footer">
+                        <div class="card-footer-social">
+                          <h3>0</h3>
+                          <p>Atack</p>
+                        </div>
+                        <div class="card-footer-social">
+                          <h3>0</h3>
+                          <p>Def</p>
+                        </div>
+                        <div class="card-footer-social">
+                          <h3>0</h3>
+                          <p>ability</p>
+                        </div>
+                      </div>
+                    </article>
+                  </main>
+
+
+
+            </div>
+
+            <div class="container row">
+                <label for="poke-name">Pokemon (Name / ID)</label>
+                <input id='poke-name' type="text" name="poke-name" value="">
+            </div>
+            <div class='container row'>
+               <button id='previous-btn' class='btn primary'>Previous</button> 
+               <button id='get-btn' class='btn primary'>Get Pokemon</button> 
+               <button id='next-btn' class='btn primary'>Next</button> 
+            </div>
+        </div>
+    </body>
+</html>
